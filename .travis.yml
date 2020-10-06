@@ -23,3 +23,4 @@ install:
 
 script:
   - emacs -batch -l ert -l bm-tests.el -f ert-run-tests-batch-and-exit
+  
